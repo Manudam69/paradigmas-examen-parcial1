@@ -1,0 +1,229 @@
+:root {
+    --color: rgb(1, 0, 181);
+}
+.blue {
+    color: var(--color);
+}
+.input-group-text {
+    background-color: transparent;
+    color: white;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+.menu {
+    background-color: transparent;
+    border-color: transparent;
+}
+.menu > i {
+    font-size: 20px;
+}
+.hr {
+    padding: 0 !important;
+    margin-top: 14px !important;
+    margin-bottom: 0 !important;
+}
+.fa-map-marker,
+.fa-envelope,
+.fa-phone {
+    color: var(--color);
+}
+#btn-color,
+nav {
+    background-color: var(--color);
+    color: white;
+}
+#boton {
+    background-color: rgb(255, 111, 216);
+    color: white;
+    border-radius: 0;
+    height: 50px;
+    margin: 0;
+}
+#appointment {
+    display: flex;
+    text-align: end;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.inicio-sesion {
+    display: flex;
+}
+.info {
+    margin: 0;
+    padding: 0;
+}
+.hide {
+    display: none;
+}
+.parallax {
+    /* Set a specific height */
+    min-height: 650px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-indicators>.active {
+    background-color: rgb(255, 111, 216);
+}
+.nav-item>a,
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+.btn-outline-primary {
+    border-color: mediumpurple !important;
+    color: #000000 !important;
+    background-color: aliceblue !important;
+}
+.btn-outline-primary:hover {
+    border-color: var(--color) !important;
+    background-color: var(--color) !important;
+    color: white !important;
+}
+.choose {
+    background-color: #6a3ace;
+    color: white;
+}
+h3>i {
+    color: rgb(255, 111, 216);
+    background-color: rgba(186, 0, 255, 0.14);
+    border-radius: 5000px;
+    padding: 15px 20px;
+}
+.card {
+    border-radius: 0 !important;
+}
+.card-block {
+    border-top-color: #00a7ff;
+    border-top-style: solid;
+}
+.read-more {
+    height: 50px;
+    width: 130px;
+}
+.fa-heartbeat,
+.fa-eye {
+    padding: 20px 20px;
+}
+.section-5 {
+    background-color: #e7e8e8;
+}
+.pink {
+    color: rgb(255, 111, 216);
+}
+.fb {
+    color: rgb(59, 89, 152);
+}
+.inst {
+    color: rgb(215, 64, 145);
+}
+.twitt {
+    color: rgb(29, 161, 242);
+}
+b>a {
+    color: black;
+}
+.form-row>div>.form-control {
+    border-color: #6a3ace;
+    background-color: transparent;
+}
+.form-row>div>.form-control:focus {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 8px rgba(255, 0, 0, 0);
+}
+.email-updates {
+    display: grid;
+    justify-content: center;
+    width: !important;
+}
+b>a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+.redes>span>a>i {
+    padding: 12px;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+}
+.fa-facebook-f:hover{
+    background-color: rgb(59, 89, 152);
+}
+.fa-twitter:hover{
+    background-color: rgb(29, 161, 242);
+}
+.fa-instagram:hover{
+    background-color: rgb(215, 64, 145);
+}
+.fa-google-plus:hover{
+    background-color: rgb(217,82,50);
+}
+.fa-pinterest-p:hover{
+    background-color: red;
+}
+.slide{
+    color: white;
+}
+
+.medical{
+    background-color: rgb(255, 111, 216) !important;
+    border-radius: 0 !important;
+    color: white !important;
+}
+.middleone{
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+}
+.nav-item>a:hover{
+    color: white ;
+}
+.navbar-toggler{
+    color: white !important;
+    border-color: white !important;
+} 
+
+@media (max-width: 992px) {
+    .middleone{
+    border-left: none;
+    border-right: none;
+}
+    .inicio-sesion,
+    .datos,
+    .areas {
+        display: flex;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .parallax {
+        /* Set a specific height */
+        min-height: 350px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #appointment {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .desktop-show {
+        display: initial;
+    }
+    #boton {
+        width: 100%;
+    }
+}
